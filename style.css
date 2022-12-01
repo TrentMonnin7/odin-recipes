@@ -1,0 +1,25 @@
+img { 
+    height: auto;
+    width: 800px;
+}
+
+
+h1 {
+    background-color: rgb(78,128,152);
+    color: rgb(206,211,220);
+}
+
+div {
+    background-color: rgb(163,22,33);
+    color: rgb(206,211,220);
+}
+
+.description {
+    background-color: rgb(163,22,33);
+}
+
+.everything-else{
+    background-color: rgb(78,128,152);
+    color: rgb(163,22,33);
+    font-weight: 600;
+}

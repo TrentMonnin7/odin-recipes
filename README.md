@@ -1,1 +1,2 @@
 # odin-recipes
+In this project I would like to showcase the abilities I've learned thus far in the course. A couple of these include: using HTML to create webpages, utilizing git and github, and creating and sorting files using BASH. 
