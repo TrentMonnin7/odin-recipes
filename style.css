@@ -1,12 +1,21 @@
 img { 
+    
     height: auto;
     width: 800px;
+    
+    margin: 50px;
 }
 
 
 h1 {
+    text-align: center;
     background-color: rgb(78,128,152);
     color: rgb(206,211,220);
+    margin: 20px;
+    border: 3px solid;
+    border-color: rgb(206,211,220);
+
+
 }
 
 div {
