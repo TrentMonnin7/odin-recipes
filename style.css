@@ -12,7 +12,7 @@ h1 {
     background-color: rgb(78,128,152);
     color: rgb(206,211,220);
     margin: 20px;
-    border: 3px solid;
+    border: 3px double;
     border-color: rgb(206,211,220);
 
 
@@ -21,6 +21,8 @@ h1 {
 div {
     background-color: rgb(163,22,33);
     color: rgb(206,211,220);
+    border: 5px solid;
+    border-color: rgb(78,128,152);
 }
 
 .description {
