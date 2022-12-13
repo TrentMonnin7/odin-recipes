@@ -39,3 +39,16 @@ h1 {
     color: rgb(163,22,33);
     font-weight: 600;
 }
+
+.flex-container{
+    background-color: rgb(163,22,33);
+    display: flex;
+    padding: 10px;
+}
+
+.pro, .con{
+    font-size: 30px;
+    background-color: rgb(206,211,220);
+    padding: 5px;
+
+}
