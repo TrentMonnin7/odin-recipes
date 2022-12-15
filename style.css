@@ -1,7 +1,6 @@
 img { 
     height: auto;
     width: 800px;
-
     margin: 50px;
 }
 
@@ -18,11 +17,23 @@ h1 {
 }
 
 .links {
+    display: flex;
     background-color: rgb(163,22,33);
     color: rgb(206,211,220);
-    padding: 20px;
+    padding: 16px;
     border: 5px solid;
     border-color: rgb(78,128,152);
+}
+
+.links div {
+    text-align: center;
+    background-color: rgb(78,128,152);
+    border: 3px rgb(206,211,220);
+    flex: 1;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    
 }
 
 .description {
@@ -41,14 +52,27 @@ h1 {
 }
 
 .flex-container{
+    display: flex;
     background-color: rgb(163,22,33);
     display: flex;
     padding: 10px;
 }
 
-.pro, .con{
+.flex-container > div{
+    flex: 1;
     font-size: 30px;
-    background-color: rgb(206,211,220);
     padding: 5px;
+    text-align: center;
+    border: 5px solid rgb(163,22,33);
+}
 
+.pro{
+    background-color: blue;
+    flex: 1;
+}
+
+.con{
+    background-color: green;
+    flex: 1;
+}
 }
