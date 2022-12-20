@@ -2,13 +2,11 @@
     display: flex;
     height: auto;
     width: auto;
-    margin: auto;
-    justify-content: center;
+    margin: auto; 
 }
 
 .image-container>img {
-    flex: 1;
-    
+    flex: 1; 
 }
 
 h1 {
@@ -30,13 +28,15 @@ h1 {
     padding: 16px;
     border: 5px solid;
     border-color: rgb(78,128,152);
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
-.links div {
+.links>div {
     text-align: center;
     background-color: rgb(78,128,152);
     border: 3px rgb(206,211,220);
-    flex: 1;
     padding: 5px;
     margin: 10px;
     cursor: pointer;
@@ -65,12 +65,12 @@ h1 {
     padding: 10px;
 }
 
-.flex-container > div{
-    flex: 1;
+.flex-container>div{
     font-size: 30px;
     padding: 5px;
     text-align: center;
     border: 5px solid rgb(163,22,33);
+    flex: 1;
 }
 
 .pro{
